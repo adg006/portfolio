@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@theme {
+  --lightHover: "#fcf4ff";
+  --darkHover: "#2a004a";
+  --darkTheme: "#11001F";
+
+  --font-outfit: Outfit;
+  --font-ovo: Ovo;
+
+  --boxShadow-black: "4px 4px 0 #000";
+  --boxShadow-white: "4px 4px 0 #fff";
+
+  --gridTemplateColumns-auto: "repeat(auto-fit, minmax(200px, 1fr))";
+}
+
 * {
   font-family: "Outfit", sans-serif;
 }
