@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function About() {
   return (
     <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
-      <h2 className="text-center text-5xl font-Ovo">About</h2>
+      <h4 className="text-center mb-2 text-lg">Introduction</h4>
+      <h2 className="text-center text-5xl">About</h2>
 
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
         <div className="w-64 sm:w-80 rounded-3xl max-w-none">
@@ -17,7 +17,7 @@ export default function About() {
         </div>
 
         <div className="flex-1">
-          <p className="mb-10 max-w-2xl font-Ovo">
+          <p className="mb-10 max-w-2xl">
             I am an experienced Frontend Developer with over a decade of
             professional expertise in the field. Throughout my career, I have
             had the privilege of working with renowned companies such as
@@ -38,7 +38,7 @@ export default function About() {
             ))}
           </ul>
 
-          <h4 className="my-6 text-gray-700 font-Ovo">Tools I Use</h4>
+          <h4 className="my-6 text-gray-700">Tools I Use</h4>
 
           <ul className="flex items-center gap-3 sm:gap-5">
             {toolsData.map((tool, index) => (

@@ -53,33 +53,23 @@ export default function Navbar() {
           }`}
         >
           <li>
-            <a href="#top" className="font-ovo">
-              Home
-            </a>
+            <a href="#top">Home</a>
           </li>
 
           <li>
-            <a href="#about" className="font-ovo">
-              About
-            </a>
+            <a href="#about">About</a>
           </li>
 
           <li>
-            <a href="#services" className="font-ovo">
-              Services
-            </a>
+            <a href="#services">Services</a>
           </li>
 
           <li>
-            <a href="#work" className="font-ovo">
-              Work
-            </a>
+            <a href="#work">Work</a>
           </li>
 
           <li>
-            <a href="#contact" className="font-ovo">
-              Contact
-            </a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
 
@@ -94,7 +84,7 @@ export default function Navbar() {
 
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray rounded-full ml-4 font-ovo"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray rounded-full ml-4"
           >
             Contact
             <Image src={assets.arrow_icon} className="w-3" alt="Arrow icon" />
@@ -123,31 +113,31 @@ export default function Navbar() {
           </div>
 
           <li>
-            <a href="#top" className="font-ovo" onClick={closeMenu}>
+            <a href="#top" onClick={closeMenu}>
               Home
             </a>
           </li>
 
           <li>
-            <a href="#about" className="font-ovo" onClick={closeMenu}>
+            <a href="#about" onClick={closeMenu}>
               About
             </a>
           </li>
 
           <li>
-            <a href="#services" className="font-ovo" onClick={closeMenu}>
+            <a href="#services" onClick={closeMenu}>
               Services
             </a>
           </li>
 
           <li>
-            <a href="#work" className="font-ovo" onClick={closeMenu}>
+            <a href="#work" onClick={closeMenu}>
               Work
             </a>
           </li>
 
           <li>
-            <a href="#contact" className="font-ovo" onClick={closeMenu}>
+            <a href="#contact" onClick={closeMenu}>
               Contact
             </a>
           </li>
