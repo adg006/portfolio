@@ -21,9 +21,13 @@ export default function Services() {
           >
             <Image src={icon} alt="" className="w-10" />
 
-            <h3 className="text-sm text-gray-600 leading-5">{title}</h3>
+            <h3 className="text-md font-semibold text-gray-600 leading-5 mt-5">
+              {title}
+            </h3>
 
-            <p className="text-sm text-gray-600 leading-5">{description}</p>
+            <p className="text-sm text-gray-600 leading-5 mt-5">
+              {description}
+            </p>
 
             <a href={link} className="flex items-center gap-2 text-sm mt-5">
               Read more
