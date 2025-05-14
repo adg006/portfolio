@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>&copy; 2025 William, ALl Rights Reserved.</p>
+        <p>&copy; 2025 William, All Rights Reserved.</p>
         <ul className="flex items-center justify-center gap-10 mt-4 sm:mt-0 ">
           <li>
             <a href="#" taget="_blank">
