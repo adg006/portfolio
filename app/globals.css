@@ -2,19 +2,9 @@
 
 @tailwind utilities;
 
-@theme {
-  --lightHover: "#fcf4ff";
-  --darkHover: "#2a004a";
-  --darkTheme: "#11001F";
-}
-
 @layer utilities {
   .grid-cols-auto {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-
-  .font-Ovo {
-    font-family: "Ovo", serif;
   }
 }
 
